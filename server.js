@@ -13,7 +13,7 @@ app.get('/profile', function (req, res) {
   res.send('Show Profile Here' );
 });
 
-app.get('/profession ', function (req, res) {
+app.get('/profession', function (req, res) {
   res.send('Show Profession Here' );
 });
 
