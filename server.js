@@ -9,15 +9,15 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/ profile', function (req, res) {
+app.get('/profile', function (req, res) {
   res.send('Show Profile Here' );
 });
 
-app.get('/ profession ', function (req, res) {
+app.get('/profession ', function (req, res) {
   res.send('Show Profession Here' );
 });
 
-app.get('/ academics', function (req, res) {
+app.get('/academics', function (req, res) {
   res.send('Show Academics Here' );
 });
 
